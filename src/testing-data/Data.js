@@ -3,8 +3,7 @@ const dishes = [
     {
         country: "Bulgaria",
         title: "Kolivo",
-
-        course: "Starter",
+        course: "dessert",
         description: "Boiled wheat with sugar and walnuts or kolivo is a common first course at the Bulgarian Christmas Eve table. It is similar to Russian kutya or sochivoand is also known as kutia in Poland, koljivo, colivă, koliva, and more depending on which country you happen to be in. This first-course Christmas Eve pudding of sorts is made with wheatberries, or other grains or legumes like rice, barley or beans, that are sweetened with honey and sometimes augmented with poppy seeds, dried fruits or walnuts. The kolivo is eaten from a common dish to symbolize unity.",
         dietaryrestrictions: {
 
@@ -21,8 +20,7 @@ const dishes = [
     {
         country: "Bulgaria",
         title: "Monastery Gyuvetch (Hotch Potch)",
-
-        course: "Main",
+        course: "main",
         description: "This dish used to be prepared at the Rila Monastery kitchen. Rila Monastery is one of the most famous Bulgarian tourist attractions and a milestone in Bulgarian culture and religion - it has survived almost untouched throughout the years of the Ottoman Yoке.",
         dietaryrestrictions: {
 
@@ -39,8 +37,7 @@ const dishes = [
     {
         country: "Bulgaria",
         title: "Baklava",
-
-        course: "Dessert",
+        course: "dessert",
         description: "A popular sweet pastry found in many cuisines of the Middle East and the Balkans, made of chopped nuts layered with phyllo pastry.",
         dietaryrestrictions: {
 
@@ -57,8 +54,7 @@ const dishes = [
     {
         country: "Romania",
         title: "Sarmale",
-
-        course: "Starter",
+        course: "main",
         description: "One of the Romanian dishes that best represent the Balkan influence is the popular sarmale, stuffed cabbage or vine leaves with a mix of rice, minced meat, onion, tomatoes and herbs. A favorite for most Romanians, this dish is usually served with cream and polenta and is a sure presence on all Christmas tables across the country.",
         dietaryrestrictions: {
 
@@ -75,8 +71,7 @@ const dishes = [
     {
         country: "Romania",
         title: "Salata Orientala",
-
-        course: "Main",
+        course: "main",
         description: "This was the kind of salad that my mom would always make whenever she wasreally busy and tired after a long day at work, but no matter how tired she was she still had to put dinner on the table for her family. This salad was her go tomeal for such times because all that’s really required is to peel some potatoes, then boil the potatoes and the eggs and just toss everything together. It was easy, but still a very satisfying dinner for us. It’s also great if you’re looking for a satisfying meatless dish.",
         dietaryrestrictions: {
 
@@ -93,8 +88,7 @@ const dishes = [
     {
         country: "Romania",
         title: "Cozonac",
-
-        course: "Dessert",
+        course: "dessert",
         description: "One of the top Romanian dishes to try in December, this sweet bread is one of the highlights of Christmas all around the country. Prepared with different fillings, but traditionally with walnut cream, cozonac is a culinary symbol that reunites families and recalls memories of celebrating Christmas at any age. Although all supermarkets and pastry shop have a wide variety of cozonac for sale this time of the year, do try the home-made version. It’s a treat.",
         dietaryrestrictions: {
 
@@ -111,8 +105,7 @@ const dishes = [
     {
         country: "China",
         title: "Crab Rangoon",
-
-        course: "Starter",
+        course: "main",
         description: "The filling is made with a combination of cream cheese,crab meat or imitation crab meat, scallions or onion, garlic, and other flavorings. A small amount of the filling is wrapped in each Chinese wonton wrapper.",
         dietaryrestrictions: {
 
@@ -129,8 +122,7 @@ const dishes = [
     {
         country: "China",
         title: "General Tso's Chicken",
-
-        course: "Main",
+        course: "main",
         description: "General Tso’s Chicken can sometimes have recipes that are really complicated and with many different breading steps. I eliminated them going to a simple cornstarch coating, but you can definitely do a thicker typical breading if you would like, like I did in my Orange Chicken recipe. Also, the addition of the hoisin sauce may seem small and you may want to skip it because it isn’t a normal pantry item unless you are used to doing Asian cooking, but the flavor is that specific General Tso’s Chicken flavor that you’ll miss without it.",
         dietaryrestrictions: {
 
@@ -147,8 +139,7 @@ const dishes = [
     {
         country: "China",
         title: "Red Bean Soup",
-
-        course: "Dessert",
+        course: "dessert",
         description: "Red bean soup is a common Chinese dessert soup (or tong sui) made from red adzuki beans and brightened with the tangy citrus of orange zest or dried tangerine peel. It’s both humble and elegant — you’re equally likely to be served red bean soup as the complimentary dessert at your neighborhood Cantonese restaurant as you are to receive it as the closing act of a lavish banquet.",
         dietaryrestrictions: {
 
@@ -165,8 +156,7 @@ const dishes = [
     {
         country: "Trinidad & Tobago",
         title: "Purple cabbage slaw with with toasted slivered almonds, rum-soaked raisins and orange segments dressed with citrus.",
-
-        course: "Starter",
+        course: "main",
         description: "A perfect salad or side.",
         dietaryrestrictions: {
 
@@ -183,7 +173,6 @@ const dishes = [
     {
         country: "Trinidad & Tobago",
         title: "Turkey Vegetable Soup",
-
         course: "Main",
         description: "A turkey and Vegetable soup.",
         dietaryrestrictions: {
@@ -201,8 +190,7 @@ const dishes = [
     {
         country: "Trinidad & Tobago",
         title: "Sorrel Sorbet",
-
-        course: "Dessert",
+        course: "dessert",
         description: "Known for its sharp, tangy taste, this fruit is also used to spice various vegetable and meat-based dishes. Like ginger, sorrel can be used to add flavour to stir fry or stews",
         dietaryrestrictions: {
 
@@ -219,8 +207,7 @@ const dishes = [
     {
         country: "Pakistan",
         title: "Halwa Puri",
-
-        course: "Starter",
+        course: "dessert",
         description: "Perhaps the most popular delicacy that Lahore has to offer is Halwa Puri. And the most famous place for trying this food is Sadiq Halwa Puri and Taj Puri Wala. What makes it even more special is the landscape with historical imprints that you enjoy.",
         dietaryrestrictions: {
 
@@ -237,8 +224,7 @@ const dishes = [
     {
         country: "Pakistan",
         title: "Hareesa",
-
-        course: "Main",
+        course: "main",
         description: "Hareesa, also dubbed as the ‘stepsister’ of Haleem, is still a tad bit different from what this mysterious yet marvelous food is. You can find best Hareesa on Nisbat Road, near Lakshmi Chowk. Although it is not the fanciest places in the town, they serve the most delicious Hareesa that leaves you craving for more!",
         dietaryrestrictions: {
 
@@ -255,8 +241,7 @@ const dishes = [
     {
         country: "Pakistan",
         title: "Gulab Jamun",
-
-        course: "Homemade gulab jamun is usually made up of powdered milk, a pinch of all-purpose flour (optional), baking powder and clarified butter (ghee); kneaded to form a dough, moulded into balls, deep fried and dropped into simmeringsugar syrup.",
+        course: "dessert",
         description: "For Gulab Jamun: 1/2 kg khoya ricotta cheese, 1 egg, 3 tablespoon plain flour, 3 tablespoon sooji, 2 tablespoon cooking oil, 1 tablespoon sugar, 1/2 teaspoon baking powder. For Sugar Syrup: 1/2 kg sugar, 2 cups water, 1/2 teaspoon green cardamom powder. For Garnishing: silver papers, pistachios and almonds",
         dietaryrestrictions: {
 
@@ -266,7 +251,7 @@ const dishes = [
             none: true
         },
         recipe: "In a large bowl, combine the khoya, egg,  plain flour, sooji, oil, sugar and  baking powder. Knead a soft dough. Make small balls out of the dough. Now heat oil in a deep pan. Fry gulab jamuns for 5-6 minutes or  until golden brown. Meanwhile, bring water to a boil in a  large pot. Add sugar and cardamom powder. Cook for 30 minutes or until sugar syrup  is thickened. Put gulab jamun in the sugar syrup. Cover the pot or until gulab jamun  absorbed the syrup. Dish it out. Garnish with silver paper. Sprinkle almonds and pistachios over the  gulab jamuns. Delicious Gulab Jamun is ready to serve.",
-        instructions: "",
+        instructions: "Homemade gulab jamun is usually made up of powdered milk, a pinch of all-purpose flour (optional), baking powder and clarified butter (ghee); kneaded to form a dough, moulded into balls, deep fried and dropped into simmeringsugar syrup.",
         time: "45min",
         image: "/img"
     },
