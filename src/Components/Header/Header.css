@@ -1,0 +1,10 @@
+.header__logo {
+  width: 60%;
+  margin: 1.5rem auto;
+}
+@media (min-width: 768px) {
+  .header__logo {
+    width: 15%;
+    margin: 1rem auto;
+  }
+}
