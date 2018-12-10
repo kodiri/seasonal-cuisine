@@ -1,0 +1,14 @@
+.wrap-hero {
+  height: 80vh;
+  background: pink;
+  position: relative;
+}
+.wrap-image {
+  height: 100%;
+  background: pink;
+}
+@media (min-width: 768px) {
+  .wrap-hero {
+    height: 70vh;
+  }
+}
