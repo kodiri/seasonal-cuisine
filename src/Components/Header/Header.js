@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "./../../img/logoSC.png";
 import "./Header.css";
 
-export default function Toolbar(props) {
+export default function Header(props) {
   return (
     <header className="header">
       <div className="header__logo">

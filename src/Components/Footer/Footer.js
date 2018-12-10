@@ -3,8 +3,8 @@ import "./Footer.css";
 
 export default function Footer(props) {
   return (
-    <header className="footer">
+    <footer className="footer">
       <p>©Designed by Charlie Team | All rights reserved</p>
-    </header>
+    </footer>
   );
 }
