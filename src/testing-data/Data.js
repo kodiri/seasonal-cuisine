@@ -1,6 +1,5 @@
 const dishes = [
     {
-        rank: 1,
         id: "kolivo",
         country: "Bulgaria",
         title: "Kolivo",
@@ -19,7 +18,6 @@ const dishes = [
         image: "/img"
     },
     {
-        rank: 2,
         id: "monastery-gyuvetch",
         country: "Bulgaria",
         title: "Monastery Gyuvetch (Hotch Potch)",
@@ -38,7 +36,6 @@ const dishes = [
         image: "/img"
     },
     {
-        rank: 3,
         id: "baklava",
         country: "Bulgaria",
         title: "Baklava",
@@ -57,7 +54,6 @@ const dishes = [
         image: "/img"
     },
     {
-        rank: 4,
         id: "sarmale",
         country: "Romania",
         title: "Sarmale",
@@ -76,7 +72,6 @@ const dishes = [
         image: "/img"
     },
     {
-        rank: 5,
         id: "salata-orientala",
         country: "Romania",
         title: "Salata Orientala",
@@ -95,7 +90,6 @@ const dishes = [
         image: "/img"
     },
     {
-        rank: 6,
         id: "cozonac",
         country: "Romania",
         title: "Cozonac",
@@ -114,7 +108,6 @@ const dishes = [
         image: "/img"
     },
     {
-        rank: 7,
         id: "crab-rangoon",
         country: "China",
         title: "Crab Rangoon",
@@ -133,7 +126,6 @@ const dishes = [
         image: "/img"
     },
     {
-        rank: 8,
         id: "General-Tsos-chicken",
         country: "China",
         title: "General Tso's Chicken",
@@ -152,7 +144,6 @@ const dishes = [
         image: "/img"
     },
     {
-        rank: 9,
         id: "red-bean-So",
         country: "China",
         title: "Red Bean Soup",
@@ -171,7 +162,6 @@ const dishes = [
         image: "/img"
     },
     {
-        rank: 10,
         id: "purple-cabbage",
         country: "Trinidad & Tobago",
         title: "Purple cabbage slaw with with toasted slivered almonds, rum-soaked raisins and orange segments dressed with citrus.",
@@ -190,7 +180,6 @@ const dishes = [
         image: "/img"
     },
     {
-        rank: 11,
         id: "turkey-vegetable-soup",
         country: "Trinidad & Tobago",
         title: "Turkey Vegetable Soup",
@@ -209,7 +198,6 @@ const dishes = [
         image: "/img"
     },
     {
-        rank: 12,
         id: "sorrel-sorbet",
         country: "Trinidad & Tobago",
         title: "Sorrel Sorbet",
@@ -228,7 +216,6 @@ const dishes = [
         image: "/img"
     },
     {
-        rank: 13,
         id: "halwa-puri",
         country: "Pakistan",
         title: "Halwa Puri",
@@ -247,7 +234,6 @@ const dishes = [
         image: "/img"
     },
     {
-        rank: 14,
         id: "hareesa",
         country: "Pakistan",
         title: "Hareesa",
@@ -266,7 +252,6 @@ const dishes = [
         image: "/img"
     },
     {
-        rank: 15,
         id: "gulab-jamun",
         country: "Pakistan",
         title: "Gulab Jamun",
