@@ -1,0 +1,21 @@
+.dropdown-placeholder {
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+  transform: translate(-50%);
+  background: white;
+  width: 80%;
+  height: 20rem;
+  border-radius: 6rem;
+  box-shadow: 2px 2px 11px 0px #888888;
+}
+@media (min-width: 768px) {
+  .dropdown-placeholder {
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 8rem;
+    border-radius: 3rem;
+    box-shadow: none;
+  }
+}

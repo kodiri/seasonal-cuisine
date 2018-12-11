@@ -1,14 +1,15 @@
 .wrap-hero {
-  height: 80vh;
-  background: pink;
+  height: 740px;
+}
+.wrap-img-text-drop {
+  height: 80%;
   position: relative;
 }
 .wrap-image {
   height: 100%;
-  background: pink;
 }
 @media (min-width: 768px) {
   .wrap-hero {
-    height: 70vh;
+    height: 75vh;
   }
 }
