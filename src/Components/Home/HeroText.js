@@ -1,7 +1,7 @@
 import React from "react";
 import "./HeroText.css";
 
-export default function Routes() {
+ export default function Routes() {
   return (
     <div className="wrap-text">
       <p className="home-title">Choose your favourite dish for christmas</p>

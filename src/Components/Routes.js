@@ -5,7 +5,7 @@ import Home from "./Home/Home";
 export default function Routes() {
   return (
     <div>
-      <Route path="/" component={Home} />
+      <Route exact path="/" component={Home} />
     </div>
   );
 }
