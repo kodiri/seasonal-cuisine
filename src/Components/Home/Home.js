@@ -6,26 +6,6 @@ export default function Routes() {
   return (
     <div>
       <Hero />
-      <div className="content">this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
-      <div>this is content</div>
       <div>this is content</div>
     </div>
   );
