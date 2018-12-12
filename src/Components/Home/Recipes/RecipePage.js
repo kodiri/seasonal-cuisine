@@ -1,4 +1,5 @@
 import React from "react";
+import { Redirect } from "react-router-dom";
 import Recipes from "./../../../testing-data/Data";
 import "./RecipePage.css";
 
@@ -9,10 +10,10 @@ export default class RecipePage extends React.Component {
   }
 
   componentDidMount() {
-    let recipe = Recipes.find(
+    let recipeData = Recipes.find(
       recipe => recipe.id === this.props.match.params.recipeId
     );
-    this.setState({ recipe });
+    this.setState({ recipe: recipeData });
   }
 
   render() {
@@ -39,7 +40,7 @@ export default class RecipePage extends React.Component {
         <p className="details-content-time">{recipe3.time}</p>
       </div>
     ) : (
-      <div>Page not found</div>
+      <Redirect to="/not-found" />
     );
   }
 }
