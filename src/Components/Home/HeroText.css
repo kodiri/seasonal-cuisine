@@ -9,6 +9,7 @@
   font-size: 1.6rem;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
+  font-family: 'Josefin Sans', sans-serif;
 }
 @media (min-width: 768px) {
   .wrap-text {
