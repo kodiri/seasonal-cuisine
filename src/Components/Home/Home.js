@@ -7,20 +7,20 @@ import "./Home.css";
 
 const styles = {
   box: {
-    width: "350px",
+    width: "100%",
     border: "solid thin gray",
-    left: "37%",
     padding: "10px",
     position: "relative",
     margin: "15px"
   },
   loading: {
-    backgroundColor: '#f43945',
+    backgroundColor: "#f43945",
     padding: "10px",
-    width: "350px",
-    left: "34%",
     position: "relative",
-    margin: "52px"
+    margin: "52px",
+    borderRadius: "5px 5px 5px 5px",
+    display: "flex",
+    justifyContent:"center"
   }
 };
 
@@ -31,7 +31,7 @@ class Home extends Component {
     this.state = {
       total: 15,
       currentCount: 3,
-      offset: 6,
+      offset: 3,
       list: [],
       isFetching: false
     };
@@ -54,27 +54,29 @@ class Home extends Component {
       <div>
         <Hero />
         <div className="background">
-          <div className="flex-grid">
-            {this.state.list.map((recipe, index) => (
-              <Recipe
-                key={index}
-                id2={recipe.id}
-                title2={recipe.title}
-                country2={recipe.country}
-                image2={recipe.image}
-              />
-            ))}
-            {this.state.currentCount !== this.state.total ? (
-              <div
-                id="content-end"
-                style={styles.loading}
-                onClick={e => this.forceLoadOnScroll()}
-              >
-                Please wait. Loading...
-              </div>
-            ) : null}
-          </div>
+        {/* <div className="flex-grid"> */}
+          {this.state.list.map((recipe, index) => (
+            <div>
+            <Recipe
+              key={index}
+              id2={recipe.id}
+              title2={recipe.title}
+              country2={recipe.country}
+              image2={recipe.image}
+            />
+            </div>
+          ))}
+          {this.state.currentCount !== this.state.total ? (
+            <div
+              id="content-end"
+              style={styles.loading}
+              onClick={e => this.forceLoadOnScroll()}
+            >
+              Please wait. Loading...
+            </div>
+          ) : null}
         </div>
+        {/* </div> */}
       </div>
     );
   }
@@ -87,11 +89,8 @@ class Home extends Component {
       // rect.top >= 0 &&
       // rect.left >= 0 &&
       rect.bottom <=
-        (window.innerHeight ||
-          document.documentElement.clientHeight) /*or $(window).height() */ &&
-      rect.right <=
-        (window.innerWidth ||
-          document.documentElement.clientWidth); /*or $(window).width() */
+      (window.innerHeight ||
+        document.documentElement.clientHeight); /*or $(window).height() */
     if (isAtEnd) {
       //User at the end of content. load more content
       if (!this.state.isFetching) {
