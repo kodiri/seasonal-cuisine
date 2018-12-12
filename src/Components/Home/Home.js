@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./Hero.js";
 import Recipes from "./../../testing-data/Data";
 import Recipe from "./Recipes/Recipe";
+import Button from "./Button/Button";
 import "./Home.css";
 
 export default function Routes() {
@@ -21,6 +22,7 @@ export default function Routes() {
           ))}
         </div>
       </div>
+      <Button/>
     </div>
   );
 }

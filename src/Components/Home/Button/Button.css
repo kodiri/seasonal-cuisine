@@ -1,0 +1,25 @@
+.wrap-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0;
+}
+.button {
+  padding: 1rem 3.2rem;
+  background: #f43945;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  font-size: 0.8rem;
+}
+@media (min-width: 768px) {
+  .wrap-button {
+    margin: 7rem 0;
+  }
+  .button {
+    padding: 1.2rem 3.5rem;
+    font-size: 1rem;
+  }
+}
