@@ -2,27 +2,7 @@ import React, { Component } from "react";
 import Hero from "./Hero.js";
 import Recipes from "./../../testing-data/Data";
 import Recipe from "./Recipes/Recipe";
-// import Button from "./Button/Button";
 import "./Home.css";
-
-const styles = {
-  box: {
-    width: "100%",
-    border: "solid thin gray",
-    padding: "10px",
-    position: "relative",
-    margin: "15px"
-  },
-  loading: {
-    backgroundColor: "#f43945",
-    padding: "10px",
-    position: "relative",
-    margin: "52px",
-    borderRadius: "5px 5px 5px 5px",
-    display: "flex",
-    justifyContent:"center"
-  }
-};
 
 class Home extends Component {
   constructor(props) {
@@ -54,7 +34,7 @@ class Home extends Component {
       <div>
         <Hero />
         <div className="background">
-        {/* <div className="flex-grid"> */}
+        <div className="flex-grid">
           {this.state.list.map((recipe, index) => (
             <div>
             <Recipe
@@ -69,14 +49,12 @@ class Home extends Component {
           {this.state.currentCount !== this.state.total ? (
             <div
               id="content-end"
-              style={styles.loading}
               onClick={e => this.forceLoadOnScroll()}
             >
-              Please wait. Loading...
             </div>
           ) : null}
         </div>
-        {/* </div> */}
+        </div>
       </div>
     );
   }
