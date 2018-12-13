@@ -34,26 +34,21 @@ class Home extends Component {
       <div>
         <Hero />
         <div className="background">
-        <div className="flex-grid">
-          {this.state.list.map((recipe, index) => (
-            <div>
-            <Recipe
-              key={index}
-              id2={recipe.id}
-              title2={recipe.title}
-              country2={recipe.country}
-              image2={recipe.image}
-            />
-            </div>
-          ))}
-          {this.state.currentCount !== this.state.total ? (
-            <div
-              id="content-end"
-              onClick={e => this.forceLoadOnScroll()}
-            >
-            </div>
-          ) : null}
-        </div>
+          <div className="flex-grid">
+            {this.state.list.map((recipe, index) => (
+              <div key={index}>
+                <Recipe
+                  id2={recipe.id}
+                  title2={recipe.title}
+                  country2={recipe.country}
+                  image2={recipe.image}
+                />
+              </div>
+            ))}
+            {this.state.currentCount !== this.state.total ? (
+              <div id="content-end" onClick={e => this.forceLoadOnScroll()} />
+            ) : null}
+          </div>
         </div>
       </div>
     );
