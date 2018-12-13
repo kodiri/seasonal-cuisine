@@ -53,7 +53,7 @@ const recipes = [
     description:
       "A popular sweet pastry found in many cuisines of the Middle East and the Balkans, made of chopped nuts layered with phyllo pastry.",
     dietaryrestrictions: {
-      gluten: false,
+      gluten: true,
       vegetarian: true,
       vegan: false,
       none: true
