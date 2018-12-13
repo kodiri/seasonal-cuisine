@@ -41,7 +41,6 @@ select {
     box-shadow: none;
   }
   .filter {
-    width: 60%;
     flex-direction: row;
   }
   .options {
