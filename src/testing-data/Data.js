@@ -1,8 +1,8 @@
 import img from "./../img/chicken.jpg";
 import img1 from "./../img/cookies.jpg";
 import img2 from "./../img/cookies2.jpg";
-import img3 from "./../img/meet.jpg";
-import img4 from "./../img/meet2.jpg";
+import img3 from "./../img/meat.jpg";
+import img4 from "./../img/meat2.jpg";
 
 const recipes = [
   {
