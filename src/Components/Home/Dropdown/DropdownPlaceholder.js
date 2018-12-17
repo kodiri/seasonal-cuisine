@@ -22,7 +22,7 @@ export default class DropdownPlaceholder extends React.Component {
             <option value="main">Main</option>
             <option value="dessert">Dessert</option>
           </select>
-          <select name="dietaryrestrictions" className="options" defaultValue="">
+          <select name="dietaryrestrictions" className="options" defaultValue="" onChange={event => this.props.onRestrictionsSelected(event.target.value)}>
             <option value="">Dietary restrictions</option>
             <option value="gluten-free">Gluten-free</option>
             <option value="vegetarian">Vegetarian</option>

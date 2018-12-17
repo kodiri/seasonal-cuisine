@@ -12,7 +12,12 @@ class Home extends Component {
       filters: {
         country: '',
         course: '',
-        restrictions: ''
+        restrictions: {
+          gluten: '',
+          vegetarian: '',
+          vegan: '',
+          none: true
+        }
       }
     };
   }
@@ -27,11 +32,26 @@ class Home extends Component {
     filters.course = course;
     this.setState({ filters }, () => {console.log(this.state.filters)}) ;
   }
+  updateRestrictions(restrictions) {
+    let filters = this.state.filters;
+    filters.restrictions.gluten = restrictions;
+    this.setState({ filters }, () => {console.log(this.state.filters)}) ;
+  }
 
   getFilteredRecipes() {
     return Recipes
-      .filter(recipe => this.state.filters.country ? recipe.country === this.state.filters.country : true) //country filter
-      .filter(recipe => this.state.filters.course ? recipe.course === this.state.filters.course : true) //course filter
+      .filter(recipe => 
+        this.state.filters.country ? 
+          recipe.country === this.state.filters.country : 
+          true) //country filter
+      .filter(recipe => 
+        this.state.filters.course ? 
+          recipe.course === this.state.filters.course : 
+          true) //course filter
+      .filter(recipe => 
+        this.state.filters.restrictions.gluten ? 
+          recipe.dietaryrestrictions.gluten === false : 
+          true);
   }
 
   
@@ -40,7 +60,8 @@ class Home extends Component {
       <div>
         <Hero 
           onCountrySelected={country => this.updateCountry(country)} 
-          onCourseSelected={course => this.updateCourse(course)}/>
+          onCourseSelected={course => this.updateCourse(course)}
+          onRestrictionsSelected={restrictions => this.updateRestrictions(restrictions)}/>
         <div className="background">
           <div className="flex-grid">
             {this.getFilteredRecipes().map((recipe, index) => (

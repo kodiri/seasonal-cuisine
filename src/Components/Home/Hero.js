@@ -13,7 +13,9 @@ export default function Hero(props) {
         </div>
         <HeroText />
         <DropdownPlaceholder 
-          onCountrySelected={country => props.onCountrySelected(country)} onCourseSelected={course => props.onCourseSelected(course)} />
+          onCountrySelected={country => props.onCountrySelected(country)} 
+          onCourseSelected={course => props.onCourseSelected(course)} 
+          onRestrictionsSelected={restrictions => props.onRestrictionsSelected(restrictions)} />
       </div>
     </div>
   );
