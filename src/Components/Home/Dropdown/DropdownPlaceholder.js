@@ -7,16 +7,16 @@ export default class DropdownPlaceholder extends React.Component {
     return (
       <div className="dropdown-placeholder">
         <div className="filter">
-          <select name="countries" className="options" defaultValue="" 
+          <select name="countries" className="options" defaultValue=""
           onChange={event => this.props.onCountrySelected(event.target.value)}>
             <option value="">Select country</option>
+            <option value="China">China</option>
             <option value="Bulgaria">Bulgaria</option>
             <option value="Romania">Romania</option>
-            <option value="China">China</option>
             <option value="Trinidad &amp; Tobago">Trinidad & Tobago</option>
             <option value="China">Pakistan</option>
           </select>
-          <select name="course" className="options" defaultValue="" 
+          <select name="course" className="options" defaultValue=""
           onChange={event => this.props.onCourseSelected(event.target.value)}>
             <option value="">Select course</option>
             <option value="main">Main</option>
