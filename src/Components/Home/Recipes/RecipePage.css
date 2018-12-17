@@ -3,10 +3,6 @@
   width: 100%;
   height: 50vh;
 }
-.recipe-image {
-  width: 60%;
-  margin: auto;
-}
 .wrap-country-time {
   width: 80%;
   margin: 2rem auto 3rem;
@@ -45,6 +41,10 @@ li {
   margin-right: 1rem;
 }
 @media (min-width: 768px) {
+  .recipe-image {
+    width: 60%;
+    margin: auto;
+  }
   .wrap-country-time {
     width: 60%;
   }

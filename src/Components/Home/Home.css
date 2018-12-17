@@ -1,6 +1,6 @@
 .background {
   width: 85%;
-  margin: auto;
+  margin: 0 auto 6rem;
 }
 .flex-grid {
   display: grid;
@@ -34,14 +34,14 @@
   margin: 0.5em;
 }
 .recipe-title {
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 @media (min-width: 700px) {
   .background {
     width: 70%;
   }
   .flex-grid {
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 30.5% 30.5% 30.5%;
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
   }
@@ -52,10 +52,11 @@
     background: rgba(45, 6, 6, 0.8);
   }
   .recipe-title {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   .country-name {
     border-bottom: 0.5px solid white;
+    font-size: .8rem;
   }
   .wrap-recipe:hover .wrap-text-on-img {
     opacity: 1;
