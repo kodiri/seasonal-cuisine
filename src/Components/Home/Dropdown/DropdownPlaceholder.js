@@ -14,7 +14,7 @@ export default class DropdownPlaceholder extends React.Component {
             <option value="Bulgaria">Bulgaria</option>
             <option value="Romania">Romania</option>
             <option value="Trinidad &amp; Tobago">Trinidad & Tobago</option>
-            <option value="China">Pakistan</option>
+            <option value="Pakistan">Pakistan</option>
           </select>
           <select name="course" className="options" defaultValue=""
           onChange={event => this.props.onCourseSelected(event.target.value)}>
