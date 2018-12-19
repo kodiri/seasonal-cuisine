@@ -12,12 +12,7 @@ class Home extends Component {
       filters: {
         country: '',
         course: '',
-        restrictions: {
-          gluten: '',
-          vegetarian: '',
-          vegan: '',
-          none: true
-        }
+        restrictions: ''
       }
     };
   }
@@ -25,43 +20,44 @@ class Home extends Component {
   updateCountry(country) {
     let filters = this.state.filters;
     filters.country = country;
-    this.setState({ filters },() => {console.log(this.state.filters)});
+    this.setState({ filters }, () => { console.log(this.state.filters) });
   }
   updateCourse(course) {
     let filters = this.state.filters;
     filters.course = course;
-    this.setState({ filters }, () => {console.log(this.state.filters)}) ;
+    this.setState({ filters }, () => { console.log(this.state.filters) });
   }
   updateRestrictions(restrictions) {
     let filters = this.state.filters;
-    filters.restrictions.gluten = restrictions;
-    this.setState({ filters }, () => {console.log(this.state.filters)}) ;
+    filters.restrictions = restrictions;
+    this.setState({ filters }, () => { console.log(this.state.filters) });
   }
 
   getFilteredRecipes() {
     return Recipes
-      .filter(recipe => 
-        this.state.filters.country ? 
-          recipe.country === this.state.filters.country : 
+      .filter(recipe =>
+        this.state.filters.country ?
+          recipe.country === this.state.filters.country :
           true) //country filter
-      .filter(recipe => 
-        this.state.filters.course ? 
-          recipe.course === this.state.filters.course : 
+      .filter(recipe =>
+        this.state.filters.course ?
+          recipe.course === this.state.filters.course :
           true) //course filter
-      .filter(recipe => 
-        this.state.filters.restrictions.gluten ? 
-          recipe.dietaryrestrictions.gluten === false : 
-          true);
+      .filter(recipe => {
+        return this.state.filters.restrictions ?
+          recipe.dietaryRestrictions[this.state.filters.restrictions] :
+          true;
+      })
   }
 
-  
+
   render() {
     return (
       <div>
-        <Hero 
-          onCountrySelected={country => this.updateCountry(country)} 
+        <Hero
+          onCountrySelected={country => this.updateCountry(country)}
           onCourseSelected={course => this.updateCourse(course)}
-          onRestrictionsSelected={restrictions => this.updateRestrictions(restrictions)}/>
+          onRestrictionsSelected={restrictions => this.updateRestrictions(restrictions)} />
         <div className="background">
           <div className="flex-grid">
             {this.getFilteredRecipes().map((recipe, index) => (
