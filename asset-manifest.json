@@ -1,7 +1,7 @@
 {
-  "main.css": "/seasonal-cuisine/static/css/main.d1b77e7a.chunk.css",
-  "main.js": "/seasonal-cuisine/static/js/main.a4dbb460.chunk.js",
-  "main.js.map": "/seasonal-cuisine/static/js/main.a4dbb460.chunk.js.map",
+  "main.css": "/seasonal-cuisine/static/css/main.714ad9db.chunk.css",
+  "main.js": "/seasonal-cuisine/static/js/main.ca61cc68.chunk.js",
+  "main.js.map": "/seasonal-cuisine/static/js/main.ca61cc68.chunk.js.map",
   "static/js/1.f8fd37f5.chunk.js": "/seasonal-cuisine/static/js/1.f8fd37f5.chunk.js",
   "static/js/1.f8fd37f5.chunk.js.map": "/seasonal-cuisine/static/js/1.f8fd37f5.chunk.js.map",
   "runtime~main.js": "/seasonal-cuisine/static/js/runtime~main.0784e9ce.js",
@@ -13,8 +13,8 @@
   "static/media/logoSC.png": "/seasonal-cuisine/static/media/logoSC.69e02093.png",
   "static/media/hero-img.jpg": "/seasonal-cuisine/static/media/hero-img.b8697c33.jpg",
   "static/media/cookies.jpg": "/seasonal-cuisine/static/media/cookies.1fd31968.jpg",
-  "static/css/main.d1b77e7a.chunk.css.map": "/seasonal-cuisine/static/css/main.d1b77e7a.chunk.css.map",
+  "static/css/main.714ad9db.chunk.css.map": "/seasonal-cuisine/static/css/main.714ad9db.chunk.css.map",
   "index.html": "/seasonal-cuisine/index.html",
-  "precache-manifest.2b21b401e361eec5c9e84a52d5e86041.js": "/seasonal-cuisine/precache-manifest.2b21b401e361eec5c9e84a52d5e86041.js",
+  "precache-manifest.190fdfc976ccbae72c79be52d8d36c1e.js": "/seasonal-cuisine/precache-manifest.190fdfc976ccbae72c79be52d8d36c1e.js",
   "service-worker.js": "/seasonal-cuisine/service-worker.js"
 }
