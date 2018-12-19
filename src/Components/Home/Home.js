@@ -20,17 +20,17 @@ class Home extends Component {
   updateCountry(country) {
     let filters = this.state.filters;
     filters.country = country;
-    this.setState({ filters }, () => { console.log(this.state.filters) });
+    this.setState({ filters });
   }
   updateCourse(course) {
     let filters = this.state.filters;
     filters.course = course;
-    this.setState({ filters }, () => { console.log(this.state.filters) });
+    this.setState({ filters });
   }
   updateRestrictions(restrictions) {
     let filters = this.state.filters;
     filters.restrictions = restrictions;
-    this.setState({ filters }, () => { console.log(this.state.filters) });
+    this.setState({ filters });
   }
 
   getFilteredRecipes() {
