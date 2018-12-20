@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/seasonal-cuisine/static/media/cookies2.4cbd99d2.jpg"
   },
   {
-    "revision": "a4dbb460f883629be203",
+    "revision": "d8efbc67a8e0bffb7317",
     "url": "/seasonal-cuisine/static/css/main.d1b77e7a.chunk.css"
   },
   {
-    "revision": "f8fd37f5cee5fe45025a",
-    "url": "/seasonal-cuisine/static/js/1.f8fd37f5.chunk.js"
+    "revision": "b1327bae8ffdb64d6453",
+    "url": "/seasonal-cuisine/static/js/1.b1327bae.chunk.js"
   },
   {
     "revision": "0784e9ce00cc1b9a6344",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/seasonal-cuisine/static/media/cookies.1fd31968.jpg"
   },
   {
-    "revision": "a4dbb460f883629be203",
-    "url": "/seasonal-cuisine/static/js/main.a4dbb460.chunk.js"
+    "revision": "d8efbc67a8e0bffb7317",
+    "url": "/seasonal-cuisine/static/js/main.d8efbc67.chunk.js"
   },
   {
     "revision": "bb5d028b0fed3945c5be90ee280852d5",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/seasonal-cuisine/static/media/hero-img.b8697c33.jpg"
   },
   {
-    "revision": "cade6d1f58ce724c1c1022ac3cb24db4",
+    "revision": "df6e7bc1f7516cd40431def6737cfa4d",
     "url": "/seasonal-cuisine/index.html"
   }
 ];
